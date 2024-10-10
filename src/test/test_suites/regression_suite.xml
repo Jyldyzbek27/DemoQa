@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite">
+    <listeners>
+        <listener class-name="demoqa.listeners.ScreenShotListeners" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/DemoQA">
+        <classes>
+            <class name="demoqatests.AlertTest"/>
+            <class name="demoqatests.ButtonsTest"/>
+            <class name="demoqatests.FramesTests"/>
+            <class name="demoqatests.PracticeFormPageTest"/>
+            <class name="demoqatests.LinksTest"/>
+            <class name="demoqatests.SelectMenuTest"/>
+            <class name="demoqatests.TextBoxPageTest">
+            </class>
+        </classes>
+    </test>
+</suite>
