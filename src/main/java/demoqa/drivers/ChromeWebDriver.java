@@ -30,12 +30,12 @@ public class ChromeWebDriver {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
 
+        options.addArguments("--headless");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--disable-extensions");
-        options.addArguments("--window-size-1920,1080");
-        options.addArguments("--disable-gpu");
-        //options.addArguments("--window-position=-2000,0");
-        System.out.println("Headless mode: " + getValue("headless"));
+        options.addArguments("--window-size=1920,1080");
 
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 
