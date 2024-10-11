@@ -29,8 +29,8 @@ public abstract class BaseTest {
 
     }
 
-//    @AfterClass(alwaysRun = true)
-//    public void tearDown(){
-//        DriverManager.closeDriver();
-//    }
+    @AfterClass(alwaysRun = true)
+    public void tearDown(){
+        DriverManager.closeDriver();
+    }
 }
