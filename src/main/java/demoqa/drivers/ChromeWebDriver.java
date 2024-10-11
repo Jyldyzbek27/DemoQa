@@ -27,7 +27,6 @@ public class ChromeWebDriver {
      * @return настроенный экземпляр WebDriver для браузера Chrome
      */
     public static WebDriver loadChromeDriver() {
-        //System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         LoggingPreferences logPrefs = new LoggingPreferences();
         ChromeOptions options = new ChromeOptions();
