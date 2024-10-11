@@ -28,7 +28,6 @@ public class ChromeWebDriver {
      */
     public static WebDriver loadChromeDriver() {
         WebDriverManager.chromedriver().setup();
-        LoggingPreferences logPrefs = new LoggingPreferences();
         ChromeOptions options = new ChromeOptions();
 
         options.addArguments("--remote-allow-origins=*");
@@ -36,7 +35,6 @@ public class ChromeWebDriver {
         options.addArguments("--window-size-1920,1080");
         options.addArguments("--disable-gpu");
         //options.addArguments("--window-position=-2000,0");
-        options.setCapability("goog:loggingPrefs", logPrefs);
         System.out.println("Headless mode: " + getValue("headless"));
 
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
