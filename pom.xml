@@ -117,11 +117,7 @@
                     </systemPropertyVariables>
                 </configuration>
                 <dependencies>
-                    <dependency>
-                        <groupId>org.aspectj</groupId>
-                        <artifactId>aspectjweaver</artifactId>
-                        <version>1.9.19</version>
-                    </dependency>
+
                 </dependencies>
             </plugin>
             <!-- give IntelliJ acceptable to run and open allure report automatic By download allure binary in project
