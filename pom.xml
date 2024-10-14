@@ -72,11 +72,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version> <!-- Используй актуальную версию плагина -->
+                <version>3.0.0-M5</version> <!-- Убедись, что используешь актуальную версию -->
                 <configuration>
-                    <groups>${testGroup}</groups> <!-- ${testGroup} — это параметр, который мы будем передавать -->
+                    <groups>${testGroup}</groups> <!-- Параметр, который мы будем передавать из Jenkins -->
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
