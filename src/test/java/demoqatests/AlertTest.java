@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class AlertTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"UI", "DN-03"})
     @Description("Checking the operation of alerts on the page")
     @Epic("Testing alerts")
     @Story("Check verify alerts")

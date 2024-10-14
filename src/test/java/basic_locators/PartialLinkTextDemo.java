@@ -13,7 +13,7 @@ import java.time.Duration;
 
 public class PartialLinkTextDemo extends BaseTest {
 
-    @Test
+    @Test(groups = {"DB", "DN-0006"})
     @Description("Testing link functionality and window handling on DemoQA Links page")
     @Epic("Link and Window Handling")
     @Story("Click on 'Home' link and switch between windows")

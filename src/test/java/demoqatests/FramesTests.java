@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class FramesTests extends BaseTest {
 
-    @Test
+    @Test(groups = {"UI", "DN-05"})
     @Description("Testing frame functionality on DemoQA")
     @Epic("Frame Functionality")
     @Story("Interact with different frames and retrieve text")

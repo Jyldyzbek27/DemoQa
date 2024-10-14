@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public class ByLinkedTextDemo extends BaseTest {
 
-    @Test
+    @Test(groups = {"DB", "DN-0003"})
     @Description("Testing link functionality on DemoQA")
     @Epic("Link Functionality")
     @Story("Clicking the 'Home' link on the links page")

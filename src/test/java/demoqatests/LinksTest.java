@@ -13,7 +13,7 @@ import java.time.Duration;
 
 public class LinksTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"UI", "DN-06"})
     @Description("Testing links and comparing messages")
     @Epic("Testing the 'Elements' section")
     @Story("Check the functionality of links in the 'Elements' section")

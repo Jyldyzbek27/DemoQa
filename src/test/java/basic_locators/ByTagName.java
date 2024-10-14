@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class ByTagName extends BaseTest {
 
-    @Test
+    @Test(groups = {"DB", "DN-0005"})
     @Description("Testing the presence of H1 tag on DemoQA Text Box page")
     @Epic("Text Box Page Functionality")
     @Story("Verify the header on the Text Box page")

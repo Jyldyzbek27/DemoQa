@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class ButtonsTest extends BaseTest {
 
 
-    @Test
+    @Test(groups = {"UI", "DN-04"})
     @Description("Testing the functionality of buttons on the page")
     @Epic("Button Testing")
     @Story("Check the functionality of various types of buttons")

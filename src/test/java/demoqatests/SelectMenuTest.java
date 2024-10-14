@@ -6,7 +6,7 @@ import java.util.List;
 
 public class SelectMenuTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"API", "DN-002"})
     @Description("Testing the functionality of the select menu on DemoQA")
     @Epic("Select Menu Functionality")
     @Story("Select different options from the old style select menu")

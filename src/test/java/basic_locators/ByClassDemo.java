@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class ByClassDemo extends BaseTest {
 
-    @Test
+    @Test(groups = {"DB", "DN-0001"})
     @Description("Testing web table functionality on DemoQA")
     @Epic("Table Functionality")
     @Story("Adding a new record to the web table")

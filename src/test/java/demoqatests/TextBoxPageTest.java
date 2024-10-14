@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class TextBoxPageTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"API", "DN-003"})
     @Description("Testing the functionality of the text box on DemoQA")
     @Epic("Text Box Functionality")
     @Story("Fill up the text box form and verify input values")
@@ -48,7 +48,7 @@ public class TextBoxPageTest extends BaseTest {
         Assert.assertEquals(actualPermanentAddressText, expectedPermanentAddressText);
     }
 
-    @Test
+    @Test(groups = {"API", "DN-004"})
     @Description("Testing the text box functionality on DemoQA")
     @Epic("Text Box Functionality")
     @Story("Fill the text box form with random data")

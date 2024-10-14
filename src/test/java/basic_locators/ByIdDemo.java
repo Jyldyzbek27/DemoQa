@@ -15,7 +15,7 @@ import java.time.Duration;
 
 public class ByIdDemo extends BaseTest {
 
-    @Test
+    @Test(groups = {"DB", "DN-0002"})
     @Description("Testing text box functionality on DemoQA")
     @Epic("Text-Box Functionality")
     @Story("Adding a new record to the text box form")

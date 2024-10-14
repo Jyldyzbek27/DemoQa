@@ -13,7 +13,7 @@ import java.util.List;
 
 public class XpathDemo extends BaseTest {
 
-    @Test
+    @Test(groups = {"UI", "DN-01"})
     @Description("Checking the absolute path")
     @Epic("Path test")
     @Story("Checking paths")
@@ -33,7 +33,7 @@ public class XpathDemo extends BaseTest {
         webElementActions.click(submitBtn);
     }
 
-    @Test
+    @Test(groups = {"UI", "DN-02"})
     @Description("Checking the relative path")
     @Epic("Path test")
     @Story("Checking paths")

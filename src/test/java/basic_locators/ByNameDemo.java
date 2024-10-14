@@ -12,7 +12,7 @@ import java.time.Duration;
 
 public class ByNameDemo extends BaseTest {
 
-    @Test
+    @Test(groups = {"DB", "DN-0004"})
     @Description("Testing login functionality on OrangeHRM")
     @Epic("Login Functionality")
     @Story("Login to OrangeHRM with valid credentials")

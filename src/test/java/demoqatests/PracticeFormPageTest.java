@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class PracticeFormPageTest extends BaseTest {
 
 
-    @Test
+    @Test(groups = {"API", "DN-001"})
     @Description("Проверка заполнения формы")
     @Epic("Тестирование формы заполнения")
     @Story("Проверка функциональности формы с данными пользователя")
